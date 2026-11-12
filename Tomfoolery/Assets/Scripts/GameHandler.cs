@@ -17,7 +17,7 @@ public class GameHandler : MonoBehaviour
 
     private void Update()
     {
-        if(GetKeyDow)
+       
     }
 
 }
