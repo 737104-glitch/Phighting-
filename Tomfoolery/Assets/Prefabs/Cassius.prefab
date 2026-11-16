@@ -44,6 +44,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CASSIUS
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: cd33ca5b8d7e2444c94d0d244a3bf5ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: cd33ca5b8d7e2444c94d0d244a3bf5ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
