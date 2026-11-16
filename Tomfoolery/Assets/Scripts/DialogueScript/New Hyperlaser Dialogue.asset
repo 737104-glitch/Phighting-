@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: New Hyperlaser Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::HyperlaserDialogue
   dialogue:
-  - 
+  - 'test dialogue
+
+'
+  - '
+
+'
