@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "Move",menuName = "Fighter/Create new more")]
-public class MoveBase : MonoBehaviour
+public class MoveBase : ScriptableObject
 {
     [SerializeField] string mName;
     [SerializeField] int cost;
@@ -17,4 +17,6 @@ public class MoveBase : MonoBehaviour
     { 
         get { return cost; } 
     }
+
+    
 }

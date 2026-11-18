@@ -1,7 +1,7 @@
 using Unity.Collections;
 using UnityEngine;
 
-public class Medkit : MonoBehaviour
+public class FighterBase : ScriptableObject
 {
     [SerializeField] string fName;
     [SerializeField] int maxHp;
@@ -10,16 +10,26 @@ public class Medkit : MonoBehaviour
 
     public string Name
     {
-        get {  return fName; }
+        get { return fName; }
     }
 
     public int MaxHp
     {
-        get { return maxHp; } 
+        get { return maxHp; }
     }
 
-    public int Attack 
-    { 
-        get { return attack; } 
+    public int Attack
+    {
+        get { return attack; }
+    }
+
+    [SerializeField] MoveBase moveBase;
+
+    public MoveBase Base
+    {
+        get
+        {
+            return moveBase;
+        }
     }
 }
